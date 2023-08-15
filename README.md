@@ -1,4 +1,4 @@
-# Only tested on Mac M1 with metal support 
+**Only tested on Mac M1 with metal support **
 
 # Build an Ecommerce Chatbot with Redis, LangChain,Hugging Face and LLama2
 
@@ -9,22 +9,19 @@ Modified `https://github.com/kamran-redis/redis-langchain-chatbot.git` privacy f
 * Privacy focused
 
   
->*Powered by [Redis](https://redis.io), [LangChain](https://python.langchain.com/en/latest/) [llma-2](https://ai.meta.com/llama/) and [HuggingFace](https://huggingface.co/blog/getting-started-with-embeddings) *
+>*Powered by [Redis](https://redis.io), [LangChain](https://python.langchain.com/en/latest/) [llama-2](https://ai.meta.com/llama/) and [HuggingFace](https://huggingface.co/blog/getting-started-with-embeddings)*
 
 In this tutorial we build a conversational retail shopping assistant that helps customers find items of interest that are buried in a product catalog. Our chatbot will take user input, find relevant products, and present the information in a friendly and detailed manner.
 
 The source code here goes along with [this Redis blog post](https://redis.com/blog/build-ecommerce-chatbot-with-redis/). Try various prompt-engineering techniques to improve on this prototype for your use case!
 
 ## Getting Started
-Probalby you will have most trouble installing [python bindings](https://github.com/abetlen/llama-cpp-python) for [llama.cpp](https://github.com/ggerganov/llama.cpp)
-
-In the notebook I have 
-
-* Clone the repository. 
-* You will need redis stack. I just deployed redis is docker and made in available on local port 6379
+* Clone the repo
+* Probalby you will have most trouble installing [python bindings](https://github.com/abetlen/llama-cpp-python) for [llama.cpp](https://github.com/ggerganov/llama.cpp)
+* You will need redis stack. I just deployed redis in docker listening on local port 6379
 * Download qunatized llama-2 from huggingface. I used [llama-2-13b.ggmlv3.q6_K.bin] (https://huggingface.co/TheBloke/Llama-2-13B-GGML/blob/main/llama-2-13b.ggmlv3.q6_K.bin) and change the path.
 
-If you are new to Jupyter etc.
+If you are new to Jupyter etc quick instructions
 
 ```
 python3.10 -m venv venv
