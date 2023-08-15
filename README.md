@@ -1,7 +1,11 @@
-# Build an Ecommerce Chatbot with Redis, LangChain, and OpenAI
+# Build an Ecommerce Chatbot with Redis, LangChain,Hugging Face and LLama2
 
+Slightly modified `https://github.com/kamran-redis/redis-langchain-chatbot.git` to work with llama-2 13b and Hugging face. Only tested on Mac M1 with metal support. 
+* You can use this totally offline
+* A lot of innovation is happening on llama-2
 
->*Powered by [Redis](https://redis.io), [LangChain](https://python.langchain.com/en/latest/), and [OpenAI](https://platform.openai.com)*
+  
+>*Powered by [Redis](https://redis.io), [LangChain](https://python.langchain.com/en/latest/) *
 
 In this tutorial we build a conversational retail shopping assistant that helps customers find items of interest that are buried in a product catalog. Our chatbot will take user input, find relevant products, and present the information in a friendly and detailed manner.
 
@@ -9,14 +13,6 @@ The source code here goes along with [this Redis blog post](https://redis.com/bl
 
 ## Getting Started
 
-1. [Get an OpenAI API Key](https://platform.openai.com).
-2. Add the API key to the [`docker-compose.yml`](./docker-compose.yml) file here in the repo.
-3. Start up the docker compose environment:
-    ```bash
-    docker compose up
-    ```
+Clone the repository. 
 
-## Coming Soon
 
-- Extensions to LangChain + Redis integration for conversational memory storage
-- Have an idea or contribution to make this even better? Open an issue -- let's collaborate!
