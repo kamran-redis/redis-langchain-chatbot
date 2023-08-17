@@ -5,4 +5,5 @@ pandas
 gdown
 transformers
 sentence_transformers
+openai
 
