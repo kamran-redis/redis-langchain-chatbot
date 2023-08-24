@@ -47,8 +47,8 @@ There are 2 jupyter notebooks
   
   | Model                                                        | Notes                                                        |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | [llama-2-7b.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/Llama-2-7B-GGML/blob/main/llama-2-7b.ggmlv3.q6_K.bin) | If you do not have a powerful GPU or 8GB RAM (M1 Max performance ~30 tokens/second). This is the smalles llama-2 model |
-  | [llama-2-13b.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/Llama-2-13B-GGML/blob/main/llama-2-13b.ggmlv3.q6_K.bin) | 16GB RAM and GPU (M1 Max performance ~16  tokens/second)     |
+  | [llama-2-7b-chat.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q6_K.bin) | If you do not have a powerful GPU or 8GB RAM (M1 Max performance ~30 tokens/second). This is the smallest llama-2 model |
+  | [llama-2-13b-chat.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/blob/main/llama-2-13b-chat.ggmlv3.q6_K.bin) | 16GB RAM and GPU (M1 Max performance ~16  tokens/second)     |
   | [llama-2-70b-chat.ggmlv3.q4_K_S.bin](https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/blob/main/llama-2-70b-chat.ggmlv3.q4_K_S.bin) | 64GB RAM and GPU( M1 Max performance ~5 tokens/second). Always requires  `gqa 8` flag |
   
   ### <a name="inference">Inference Engine</a>
